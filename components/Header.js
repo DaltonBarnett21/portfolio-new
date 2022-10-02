@@ -14,7 +14,7 @@ const Header = () => {
           className="  font-bold   text-3xl"
         >
           <Link href="#hero">
-            <span className="hover:cursor-pointer">DB</span>
+            <span className="hover:cusr">DB</span>
           </Link>
         </motion.div>
 

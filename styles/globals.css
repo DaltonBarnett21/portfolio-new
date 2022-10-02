@@ -6,8 +6,7 @@
 
 body {
   font-family: "Passions Conflict", cursive;
-
-  /* font-family: "Playfair Display", serif; */
+  font-family: "Playfair Display", serif;
 }
 
 @layer components {

@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 
 const About = () => {
   return (
-    <motion.div className="bg-[#272121] text-white h-screen flex  justify-center items-center relative">
+    <motion.div className="bg-[#272121] text-white h-screen flex  justify-center items-center relative pb-10">
       <h3 className="hidden lg:block absolute top-20  uppercase teacking-[20px] text-gray-400 text-2xl">
         About
       </h3>
@@ -22,7 +22,7 @@ const About = () => {
             duration: 1.2,
           }}
           viewport={{ once: true }}
-          className=" rounded-lg mt-24"
+          className=" rounded-lg mt-24 flex justify-center"
         >
           <Image src={AboutImage} alt="picture of dalton" />
         </motion.div>
