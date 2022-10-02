@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Passions+Conflict&family=Playfair+Display&display=swap");
+
+body {
+  font-family: "Passions Conflict", cursive;
+
+  /* font-family: "Playfair Display", serif; */
+}
+
+@layer components {
+  .formInput {
+    @apply mt-4 p-5 bg-transparent outline-none border border-[#5e5a5a] focus:border-b-cyan-400 focus:border-[#272121] transition-all;
+  }
+}
