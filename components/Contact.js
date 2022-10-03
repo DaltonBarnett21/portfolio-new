@@ -17,7 +17,7 @@ const Contact = () => {
     setFormStatus("SENDING");
     setTimeout(() => {
       axios
-        .post("https://daltoncreates.site/api/contact", data)
+        .post("http://localhost:3000/api/contact", data)
         .then((res) => {
           setFormStatus("SENT");
           setTimeout(() => {
