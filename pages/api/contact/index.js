@@ -17,7 +17,7 @@ export default async function handler(req, res) {
     let info = await transporter.sendMail({
       from: `"${email} 👻" <dalton@daltoncreates.net>`, // sender address
       to: "daltonbarnett21@yahoo.com", // list of receivers
-      subject: `SITE FORM SUBMISSIONG FROM ${name}. SUBJECT:${subject} `, // Subject line
+      subject: `SITE FORM SUBMISSIONG FROM ${name}. SUBJECT: ${subject} `, // Subject line
       text: message, // plain text body
     });
 
