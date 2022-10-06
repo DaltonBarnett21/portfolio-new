@@ -3,7 +3,6 @@ import nodemailer from "nodemailer";
 export default async function handler(req, res) {
   const { name, email, subject, message } = req.body;
 
-  a;
   let transporter = nodemailer.createTransport({
     host: "smtp.mailgun.org",
     port: 587,
